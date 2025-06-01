@@ -10,3 +10,10 @@ https://www.pythontutorial.net/tkinter/
 
 
 [1_Tkinter Hello, World!](./docs/1_Tkinter_Hello_World.md)
+
+
+```py
+# 내보내기
+.pack()
+
+```

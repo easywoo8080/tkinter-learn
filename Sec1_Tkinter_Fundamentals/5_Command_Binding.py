@@ -28,7 +28,18 @@ ttk.Button(root, text='Scissors', command=lambda: callback_function('Scissors'))
 from functools import partial
 
 ttk.Button(root, text='lambda_1', command=lambda: print('lambda_1')).pack()
+
+
+# partial을 사용하여 콜백 함수에 인자를 전달하는 방법을 보여줍니다.
 ttk.Button(root, text='lambda_2', command=partial(print, 'lambda_2')).pack()
 
 
+def on_button_click(text):
+    print('Button clicked with no args : ', text)
+
+# partial는 기존의 함수를 호출하여 사용할 수 있다.
+ttk.Button(root, text='lambda_3', command=partial(on_button_click, 'lambda_3')).pack()
+
+# ttk.Button(root, text='lambda_4', cogmmand=on_button_click('lambda_4')).pack()
+           
 root.mainloop()
