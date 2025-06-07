@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter.messagebox import showinfo
 
 root = tk.Tk()
-root.geometry('300x200')
+root.geometry('200x150')
 root.title('Checkbox Demo')
 
 

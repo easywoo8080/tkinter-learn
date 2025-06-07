@@ -6,3 +6,4 @@ root = tk.Tk()
 root.after(3000, root.destroy)
 
 root.mainloop()
+

@@ -28,6 +28,9 @@ root.after(3000, root.destroy)
 
 root.mainloop()
 ```
+| 결과
+
+![창 띄우기](./img/1_window.png)
 
 
 ## Window
@@ -64,6 +67,9 @@ root.mainloop()
 
 ```
 
+| 결과
+![창 조절](./img/2_window.png)
+
 
 ## tk_themed_widget
 
@@ -81,6 +87,8 @@ root.geometry('600x400+50+50')
 tk.Button(root, text='Classic Button').pack()
 ttk.Button(root, text='Themed Button').pack()
 ```
+| 결과
+![alt text](img/3_img.png)
 
 ### 주요 내장 테마 (OS에 따라 다름)
 - default
