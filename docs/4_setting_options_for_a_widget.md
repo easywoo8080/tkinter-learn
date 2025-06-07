@@ -1,3 +1,11 @@
+[돌아가기](../README.md)
+
+
+
+## 4_setting_options_for_a_widget
+
+
+```py
 
 import tkinter as tk
 from tkinter import ttk
@@ -41,3 +49,12 @@ label.pack()
 
 
 root.mainloop()
+
+```
+
+![alt text]({078E032F-B92D-4996-802B-F48A6C731FFB}.png)
+
+위 사진 처럼 label.pack()을 3번 호출을 해도 "Hi2"는 한번밖에 출력되지 않는다.
+
+
+[돌아가기](../README.md)

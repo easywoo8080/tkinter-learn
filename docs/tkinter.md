@@ -1,6 +1,6 @@
 
 # s1
-## 창만들기 (Tkinter Hello, World!)
+## 1_창만들기 (Tkinter Hello, World!)
 [1_Tkinter Hello, World!](../Sec1_Tkinter_Fundamentals/1_Tkinter_Hello_World.py)
 
 
@@ -33,7 +33,7 @@ root.mainloop()
 ![창 띄우기](./img/1_window.png)
 
 
-## Window
+## 2_Window
 
 - 윈도우의 창 크기, 투명도를 조절합니다.
 - title name
@@ -71,7 +71,7 @@ root.mainloop()
 ![창 조절](./img/2_window.png)
 
 
-## tk_themed_widget
+## 3_tk_themed_widget
 
 ```py
 
@@ -113,6 +113,46 @@ from ttkthemes import ThemedTk
 
 root = ThemedTk(theme="arc")  # 예: 'arc', 'breeze', 'plastik' 등
 ```
+
+
+## 3_1 tkinter checkbox
+
+```python
+import tkinter as tk
+from tkinter import ttk
+from tkinter import messagebox
+
+
+root = tk.Tk()
+root.geometry('200x150')
+root.title('Checkbox Demo')
+
+
+def show_message():
+    messagebox.showinfo(
+        title='Result',
+        message='You agreed.' if agreement_var.get() else 'You did not agree.'
+    )
+
+
+agreement_var = tk.BooleanVar()
+
+checkbox = ttk.Checkbutton(
+    root,
+    text='I agree',
+    command=show_message,
+    variable=agreement_var
+)
+
+checkbox.pack()
+
+
+root.mainloop()
+```
+
+![check true](img/3-1-1.png)
+![check fasle](img/3-1-2.png)
+
 
 
 ## Command_button

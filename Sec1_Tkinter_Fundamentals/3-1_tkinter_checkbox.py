@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
-from tkinter.messagebox import showinfo
+from tkinter import messagebox
+
 
 root = tk.Tk()
 root.geometry('200x150')
@@ -8,7 +9,7 @@ root.title('Checkbox Demo')
 
 
 def show_message():
-    showinfo(
+    messagebox.showinfo(
         title='Result',
         message='You agreed.' if agreement_var.get() else 'You did not agree.'
     )
