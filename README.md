@@ -14,8 +14,13 @@ https://www.pythontutorial.net/tkinter/
 
 [2_window](./docs/2_window.md)
 
-[3_tk_themed_widgets](./docs/3_tk_themed_widgets.md.md)
+[3_tk_themed_widgets](./docs/3_tk_themed_widgets.md)
 
-[4_setting_options_for_a_widget](./docs/4_setting_options_for_a_widget.md.md)
+[4_setting_options_for_a_widget](./docs/4_setting_options_for_a_widget.md)
 
-[5_Command_Binding](./docs/5_Command_Binding.md.md)
+[5_Command_Binding](./docs/5_Command_Binding.md)
+
+
+
+[6_Command_Binding](./docs/6_event_binding.md)
+
