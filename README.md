@@ -22,5 +22,5 @@ https://www.pythontutorial.net/tkinter/
 
 
 
-[6_Command_Binding](./docs/6_event_binding.md)
+[6_event_binding](./docs/6_event_binding.md)
 
